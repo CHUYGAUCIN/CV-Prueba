@@ -1,0 +1,54 @@
+/*Este es un comentario*/
+
+/*Selector de tipo etiqueta*/
+body{
+    background-image: image();
+    background-color: rgb(163, 200, 198);
+    font-size: 19px;
+color: gray;
+font-family: Poetsen one, sans-serif;
+}
+
+h1{
+    color: rgb(33, 33, 115);
+}
+
+h2{
+    color:grgb(10, 205, 36);
+}
+
+/*Selector de tipo ID */
+
+#titulo-cert{ 
+    color: rgb(23, 170, 6);
+}
+
+
+/*Selector de tipo clase*/
+.estilo-seccion{
+    background-color: beige;
+    text-align: left;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+    border: 1px green solid
+;
+}
+
+/*Selector avanzado*/
+.estilo-seccion ul li{
+ list-style: none   
+}
+
+img{
+    width: 250px;
+    height: 300px;
+}
+
+h1{
+    color: green;
+}
+
+h1{
+    color: orangered;
+}
