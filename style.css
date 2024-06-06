@@ -1,54 +1,77 @@
-/*Este es un comentario*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
 
-/*Selector de tipo etiqueta*/
+header{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url(/images/persona-computadora_23-2150010125.avif);
+        background-position: cover;
+        padding: 50px; 
+        border-bottom:  8px solid rgb(233, 233, 233);  
+        }
 body{
-    background-image: image();
-    background-color: rgb(163, 200, 198);
-    font-size: 19px;
-color: gray;
-font-family: Poetsen one, sans-serif;
+    background-image: url() ;
+    background-color: rgba(0, 59, 221, 0.795);
+    font-size: 17px;
+    color: rgb(68, 67, 67);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-h1{
-    color: rgb(33, 33, 115);
-}
-
-h2{
-    color:grgb(10, 205, 36);
-}
-
-/*Selector de tipo ID */
-
-#titulo-cert{ 
-    color: rgb(23, 170, 6);
-}
-
-
-/*Selector de tipo clase*/
 .estilo-seccion{
-    background-color: beige;
     text-align: left;
-    border-radius: 20px;
-    padding: 15px;
-    margin: 20px;
-    border: 1px green solid
-;
+    border-radius: 10px;  
+    padding: 10px;  
+    margin: 10px;
+    border: 5px rgb(182, 204, 181) double;
 }
 
-/*Selector avanzado*/
-.estilo-seccion ul li{
- list-style: none   
+ul{
+    background-color:rgba(21, 52, 192, 0.377);
+    font-size: 20px;
+    color: silver;
 }
 
-img{
-    width: 250px;
-    height: 300px;
-}
 
-h1{
-    color: green;
-}
+    h2{
+        color:white;
+        font-size: 30px;
+        font-style: italic;
+    }
 
-h1{
-    color: orangered;
-}
+
+    nav ul li{
+        display: inline-block;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: rgb(0, 110, 255)
+        
+    }
+    #colorazulinicio{
+        color: rgb(226, 156, 6);
+    }
+    #colorazulcv{
+        color: rgb(7, 3, 255);
+        }
+
+        #colornaranjaenlace{
+            color: rgb(226, 156, 6);
+    }
+        footer{
+            font-size: 20px;
+            color: azure;
+            border-radius: 20px;
+            padding: 15px;
+            margin: 20px;
+         }
+         
+         .now img{
+            width: 15rem;
+            height: 15rem;
+            transition: transform: rotate (360deg);
+         }
+         .now:hover img{
+            width: 20rem;
+            height: 20rem;
+            transform: rotate(360deg);
+         }
