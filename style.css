@@ -75,3 +75,8 @@ ul{
             height: 20rem;
             transform: rotate(360deg);
          }
+
+         section p{
+            color: orange;
+            size: 8px;
+         }
